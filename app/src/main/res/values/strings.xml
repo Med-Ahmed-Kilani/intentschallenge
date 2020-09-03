@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">intents challange</string>
+    <string name="contacts_app">Contacts app</string>
+    <string name="create_new_contact">Create New Contact</string>
+    <string name="please_enter_your_name">please enter your name</string>
+    <string name="please_enter_your_number">please enter your number</string>
+    <string name="please_enter_your_website">please enter your website</string>
+    <string name="please_enter_your_address">please enter your address</string>
+    <string name="yellowEmoji">TODO</string>
+    <string name="greenEmoji">TODO</string>
+    <string name="redEmoji">TODO</string>
+    <string name="webIcon">TODO</string>
+    <string name="locationIcon">TODO</string>
+    <string name="callIcon">TODO</string>
+
+</resources>

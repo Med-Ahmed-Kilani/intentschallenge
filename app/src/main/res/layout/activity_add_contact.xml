@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BEAEEA7A"
+    tools:context=".addContact">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/please_enter_your_name"
+        android:inputType="textPersonName"
+        android:textColorHint="#9E9C9C"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/please_enter_your_number"
+        android:inputType="number"
+        android:textColorHint="#9E9C9C"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/etWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/please_enter_your_website"
+        android:inputType="textPersonName"
+        android:textColorHint="#9E9C9C"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/please_enter_your_address"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColorHint="#9E9C9C"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/LlHori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/greenEmoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:minHeight="50dp"
+            app:srcCompat="@drawable/greenemoji"
+            android:contentDescription="@string/greenEmoji" />
+
+        <ImageView
+            android:id="@+id/yellowEmoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:minHeight="50dp"
+            app:srcCompat="@drawable/yellowemoji"
+            android:contentDescription="@string/yellowEmoji" />
+
+        <ImageView
+            android:id="@+id/redEmoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:minHeight="50dp"
+            app:srcCompat="@drawable/redemoji"
+            android:contentDescription="@string/redEmoji" />
+
+    </LinearLayout>
+</LinearLayout>
