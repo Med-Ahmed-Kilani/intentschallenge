@@ -1,2 +1,1 @@
-# intentschallenge
-android features tests
+# Android-Intents-Challange
